@@ -14,7 +14,9 @@ public class ProviderController {
 
     @RequestMapping("index")
     public String bb(String uname){
-        return uname+"这是我的provider";
+
+
+        System.out.println(" return uname");
         return uname+"这是我的provider";
     }
 }
